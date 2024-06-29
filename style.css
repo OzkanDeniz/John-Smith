@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jhon {
+  display: flex;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.jhon p {
+  margin-top: 20px;
+}
+
+.nav-sec ul {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+  margin-right: 20px;
+}
+h2{
+    font-family: "Kenia", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.jh{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #20889F;
+    color: white;
+
+}
+
+.list2{
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+    align-items: center;
+    font-size: 16px;
+}
+
+.list2 img{
+    width: 70px;
+    height: 70px;
+}
